@@ -1,0 +1,17 @@
+#!/usr/bin/env php
+<?php
+
+$autoloadFile = __DIR__.'/../../../autoload.php';
+if (file_exists($autoloadFile)) {
+    require_once $autoloadFile;
+} else {
+    require_once __DIR__.'/../vendor/autoload.php';
+}
+
+
+use Symfony\Component\Console\Application;
+use Medani\Prestashop\CodingStyle\Command\CsFixerInitCommand;
+
+$app = new Application();
+$app->add(new CsFixerInitCommand());
+$app->run();

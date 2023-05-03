@@ -1,0 +1,22 @@
+{
+    "name": "medani-gmbh/prestashop-coding-style",
+    "type": "library",
+    "require": {
+        "php": ">=6",
+        "friendsofphp/php-cs-fixer": "^3.14",
+        "symfony/filesystem": "^6.0",
+        "symfony/console": "^6.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Medani\\Prestashop\\CodingStyle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ben Schoeffmann",
+            "email": "benedikt.schoeffmann@medani.com"
+        }
+    ]
+}

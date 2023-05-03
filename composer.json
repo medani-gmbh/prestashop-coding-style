@@ -18,5 +18,12 @@
             "name": "Ben Schoeffmann",
             "email": "benedikt.schoeffmann@medani.com"
         }
-    ]
+    ],
+    "config": {
+        "preferred-install": "dist",
+        "classmap-authoritative": true,
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "prepend-autoloader": false
+    }    
 }
